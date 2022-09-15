@@ -1,0 +1,17 @@
+{
+	"name": "videostreaming",
+	"version": "1.0.0",
+	"description": "simple video streaming app",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll",
+		"dev": "nodemon app.js"
+	},
+	"author": "Mahim",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.1",
+		"nodemon": "^2.0.19"
+	}
+}
